@@ -6,7 +6,7 @@ function Form(props) {
     function handleSubmit(e) {
         e.preventDefault();
 
-        if(name == "") {
+        if(name === "") {
             alert("Not possible to add empty task");
             return;
         }
